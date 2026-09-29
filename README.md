@@ -1,24 +1,36 @@
 # CampusSplit: Hostel & Room Expense Manager
 
-## Project Description
-CampusSplit is a console-based Python application designed for hostel roommates and student groups to manage shared living costs. The program allows users to record shared purchases, calculate real-time net balances to see who owes or is owed money, generate category-wise spending breakdowns, and monitor group expenditures against a set monthly budget limit. The application is built entirely using foundational Python logic without relying on external packages or frameworks.
+## Project Overview
+CampusSplit is a console-based Python application built to help hostel roommates and student groups track shared living expenses. The system allows users to log shared purchases, view category-wise expense breakdowns, compute net balances to determine who owes or receives money, and track spending against a fixed monthly budget.
 
-## Environment Setup
-This project is built using pure Python. No external IDE, GUI, or database configuration is required.
-- **Prerequisite:** Python 3.x installed on your system.
+The program is constructed purely using foundational Python constructs without any third-party packages or external libraries.
 
-## Dependency Installation
-This project strictly uses built-in Python data structures and control flow (lists, dictionaries, tuples, and loops).
-- **Zero external dependencies required.**
-- There is no `requirements.txt` and no need to run `pip install`.
+---
 
-## Configuration
-No special configuration, API keys, or environment variables are needed to run this script.
+## Core Features
+* **Add Shared Expense:** Record an expense by specifying the item, payer, amount, and spending category.
+* **Input Validation:** Sanitizes and verifies amounts and roommate names to prevent invalid input or runtime crashes.
+* **Category Breakdown:** Displays aggregate spending and percentage share for Food, Groceries, Internet, and Misc.
+* **Smart Debt Settlement:** Calculates equal per-person shares and displays exact net balances (who owes whom).
+* **Budget Alert & Log:** Compares total spend against a Rs 6000 threshold and maintains an immutable transaction history.
 
-## Execution Instructions
-The project is fully executable via the command line or terminal.
+---
 
-1. Open your terminal or command prompt.
-2. Navigate to the directory where the repository is cloned or where `main.py` is saved:
+## Prerequisites & Environment Setup
+* **Operating System:** Windows, macOS, or Linux
+* **Environment:** Terminal, Command Prompt, or any Python 3 environment
+* **Prerequisite:** Python 3.x installed
+
+---
+
+## Dependencies & Installation
+* No external modules or packages are required.
+* Standard libraries only. No `pip install` or `requirements.txt` needed.
+
+---
+
+## How to Run
+1. Open Command Prompt or Terminal.
+2. Navigate to the directory containing `main.py`:
    ```bash
-   cd path/to/folder
+   cd Desktop
